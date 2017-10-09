@@ -46,3 +46,39 @@ ul.breadcrumb li a:hover {
 .mymargin{
     margin-left: 10%;
 }
+
+.mylogin{
+ background-color: #323232
+}
+.mysubnav{
+    border: 1px solid #eee;
+}
+.mysubnav a {
+    border: 1px solid #eee;
+    color: black !important;
+}
+
+.mysubnav:hover a:hover {
+    background-color: #00A755;
+    color: white !important;
+}
+.active a{
+    background-color: #00A755 !important;
+    color: white !important;
+}
+.tabs .indicator{
+    background-color: #00A755 !important;
+}
+
+.page-footer{
+    padding: 2%;
+    background-color: '#535353'
+}
+
+.chip{
+    border-radius: 0 !important;
+    font-size: 18px;
+    width: 10%;
+    font-weight: normal;
+    margin: 1%
+}

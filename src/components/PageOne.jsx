@@ -11,7 +11,7 @@ const PageOne = () => {
   return (
     <div>
       <h3 className="brand-logo mymargin">EPOHCJ</h3>
-      <nav className = "mynav">
+      <nav className ="mynav">
         <div className="nav-wrapper mynav">
           <Link to="#" data-activates="mobile-demo" className="button-collapse">
             <i className="material-icons">menu</i>
@@ -28,8 +28,8 @@ const PageOne = () => {
             <li><Link to="#">Radio</Link></li>
             <li><Link to="pagetwo">Page 2</Link></li>
             <li style={{ margin: '0 50px' }}><a href="#"><i className="material-icons">search</i></a></li>
-            <li><Link to="#">Login</Link></li>
-            <li><Link to="#">Register</Link></li>
+            <li className="mylogin"><Link to="#" style={{ borderRight: '1px white solid' }}>   Login </Link></li>
+            <li className="mylogin"><Link to="#">Register</Link></li>
 
           </ul>
           <ul className="side-nav" id="mobile-demo">
@@ -51,7 +51,7 @@ const PageOne = () => {
       </nav>
       <div>
         <div>
-          <div>
+          <div style={{ margin: '5%' }}>
             <h5 style={{ float: 'left' }}>Albums</h5>
             <ul className="breadcrumb" style={{ float: 'right' }}>
               <li><a href="#">Home</a></li>
@@ -61,7 +61,7 @@ const PageOne = () => {
           </div>
         </div>
         <center>
-          <div style={{ width: '50%', height: '10%' }}>
+          <div style={{ width: '50%', height: '10%', margin: '2%' }}>
             <iframe
               width="100%"
               height="166"
@@ -73,17 +73,17 @@ const PageOne = () => {
         </center>
       </div>
       <div>
-        <div className="row">
+        <div className="row" style={{ margin: '5%' }}>
           <div className="col s12">
             <ul className="tabs">
-              <li className="tab col s3 active"><a href="#test1">Albums</a></li>
-              <li className="tab col s3">
+              <li className="tab col s3 active mysubnav"><a href="#test1">Albums</a></li>
+              <li className="tab col s3 mysubnav">
                 <a href="#test2">Play List</a>
               </li>
-              <li className="tab col s3">
+              <li className="tab col s3 mysubnav">
                 <a href="#test3">Satus</a>
               </li>
-              <li className="tab col s3"><a href="#test4">Option 4</a></li>
+              <li className="tab col s3 mysubnav"><a href="#test4">Option 4</a></li>
             </ul>
           </div>
           <div id="test1" className="col s12">
@@ -96,8 +96,8 @@ const PageOne = () => {
                   </div>
                   <div className="card-action">
                     <center>
-                        <p>Artiste Name</p>
-                      </center>
+                      <p>Artiste Name</p>
+                    </center>
                   </div>
                 </div>
               </div>
@@ -109,83 +109,83 @@ const PageOne = () => {
                   </div>
                   <div className="card-action">
                     <center>
+                      <p>Artiste Name</p>
+                    </center>
+                  </div>
+                </div>
+              </div> <div className="col s12 m3">
+                <div className="card">
+                  <div className="card-image">
+                    <img src={musicCover} />
+                    <span className="card-title">Music</span>
+                  </div>
+                  <div className="card-action">
+                    <center>
                         <p>Artiste Name</p>
                       </center>
                   </div>
                 </div>
               </div> <div className="col s12 m3">
-                <div className="card">
+                       <div className="card">
                   <div className="card-image">
-                      <img src={musicCover} />
-                      <span className="card-title">Music</span>
-                    </div>
+                             <img src={musicCover} />
+                    <span className="card-title">Music</span>
+                           </div>
                   <div className="card-action">
-                      <center>
-                      <p>Artiste Name</p>
-                    </center>
-                    </div>
+                             <center>
+                             <p>Artiste Name</p>
+                           </center>
+                  </div>
                 </div>
-                     </div> <div className="col s12 m3">
+                            </div> <div className="col s12 m3">
                 <div className="card">
-                           <div className="card-image">
+                                  <div className="card-image">
                            <img src={musicCover} />
                            <span className="card-title">Music</span>
                          </div>
-                           <div className="card-action">
+                  <div className="card-action">
                            <center>
                       <p>Artiste Name</p>
                     </center>
                          </div>
-                         </div>
-              </div> <div className="col s12 m3">
-                                <div className="card">
-                         <div className="card-image">
+                                </div>
+                     </div> <div className="col s12 m3">
+                <div className="card">
+                                <div className="card-image">
                     <img src={musicCover} />
                     <span className="card-title">Music</span>
                   </div>
-                         <div className="card-action">
+                                <div className="card-action">
+                    <center>
+                      <p>Artiste Name</p>
+                    </center>
+                  </div>
+                              </div>
+              </div> <div className="col s12 m3">
+                                     <div className="card">
+                  <div className="card-image">
+                                                <img src={musicCover} />
+                                                <span className="card-title">Music</span>
+                                              </div>
+                  <div className="card-action">
+                                                <center>
+                      <p>Artiste Name</p>
+                    </center>
+                                              </div>
+                </div>
+                                   </div> <div className="col s12 m3">
+                <div className="card">
+                                                     <div className="card-image">
+                    <img src={musicCover} />
+                    <span className="card-title">Music</span>
+                  </div>
+                                                     <div className="card-action">
                     <center>
                                     <p>Artiste Name</p>
                                   </center>
                   </div>
-                       </div>
-              </div> <div className="col s12 m3">
-                              <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                             <p>Artiste Name</p>
-                           </center>
-                  </div>
-                </div>
-                                   </div> <div className="col s12 m3">
-                <div className="card">
-                                              <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                                              <div className="card-action">
-                    <center>
-                             <p>Artiste Name</p>
-                           </center>
-                  </div>
-                                            </div>
-              </div> <div className="col s12 m3">
-                                                   <div className="card">
-                  <div className="card-image">
-                                  <img src={musicCover} />
-                                  <span className="card-title">Music</span>
-                                </div>
-                  <div className="card-action">
-                                  <center>
-                      <p>Artiste Name</p>
-                    </center>
-                                </div>
-                </div>
-                                                 </div>
+                                                   </div>
+                     </div>
             </div>
           </div>
           <div id="test2" className="col s12">
@@ -198,8 +198,8 @@ const PageOne = () => {
                   </div>
                   <div className="card-action">
                     <center>
-                        <p>Artiste Name 2</p>
-                      </center>
+                      <p>Artiste Name 2</p>
+                    </center>
                   </div>
                 </div>
               </div>
@@ -211,83 +211,83 @@ const PageOne = () => {
                   </div>
                   <div className="card-action">
                     <center>
+                      <p>Artiste Name 2</p>
+                    </center>
+                  </div>
+                </div>
+              </div> <div className="col s12 m3">
+                <div className="card">
+                  <div className="card-image">
+                    <img src={musicCover} />
+                    <span className="card-title">Music</span>
+                  </div>
+                  <div className="card-action">
+                    <center>
                         <p>Artiste Name 2</p>
                       </center>
                   </div>
                 </div>
               </div> <div className="col s12 m3">
-                <div className="card">
+                       <div className="card">
                   <div className="card-image">
-                      <img src={musicCover} />
-                      <span className="card-title">Music</span>
-                    </div>
+                             <img src={musicCover} />
+                             <span className="card-title">Music</span>
+                           </div>
                   <div className="card-action">
-                      <center>
+                             <center>
                       <p>Artiste Name 2</p>
                     </center>
-                    </div>
+                           </div>
                 </div>
-                     </div> <div className="col s12 m3">
+                            </div> <div className="col s12 m3">
                 <div className="card">
-                           <div className="card-image">
+                                  <div className="card-image">
                     <img src={musicCover} />
                     <span className="card-title">Music</span>
                   </div>
-                           <div className="card-action">
+                                  <div className="card-action">
                     <center>
                              <p>Artiste Name 2</p>
                            </center>
                   </div>
-                         </div>
-                     </div> <div className="col s12 m3">
+                                </div>
+                            </div> <div className="col s12 m3">
                                 <div className="card">
                   <div className="card-image">
-                           <img src={musicCover} />
-                           <span className="card-title">Music</span>
-                         </div>
+                                  <img src={musicCover} />
+                                  <span className="card-title">Music</span>
+                                </div>
                   <div className="card-action">
-                           <center>
+                                  <center>
                       <p>Artiste Name 2</p>
                     </center>
-                         </div>
+                                </div>
                 </div>
                               </div> <div className="col s12 m3">
                 <div className="card">
-                                <div className="card-image">
+                                       <div className="card-image">
                     <img src={musicCover} />
                     <span className="card-title">Music</span>
                   </div>
-                                <div className="card-action">
+                                       <div className="card-action">
                     <center>
-                                           <p>Artiste Name 2</p>
-                                         </center>
+                      <p>Artiste Name 2</p>
+                    </center>
                   </div>
-                              </div>
+                                     </div>
               </div> <div className="col s12 m3">
-                                     <div className="card">
+                                            <div className="card">
                   <div className="card-image">
                     <img src={musicCover} />
                     <span className="card-title">Music</span>
                   </div>
                   <div className="card-action">
-                    <center>
+                                                <center>
                              <p>Artiste Name 2</p>
                            </center>
-                                              </div>
+                  </div>
                 </div>
-                                          </div> <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                           <img src={musicCover} />
-                           <span className="card-title">Music</span>
-                         </div>
-                                              <div className="card-action">
-                           <center>
-                      <p>Artiste Name 2</p>
-                    </center>
-                         </div>
-                </div>
-                     </div>
+                                          </div>
             </div>
           </div>
           <div id="test3" className="col s12">
@@ -300,8 +300,8 @@ const PageOne = () => {
                   </div>
                   <div className="card-action">
                     <center>
-                        <p>Artiste Name 3</p>
-                      </center>
+                      <p>Artiste Name 3</p>
+                    </center>
                   </div>
                 </div>
               </div>
@@ -313,23 +313,35 @@ const PageOne = () => {
                   </div>
                   <div className="card-action">
                     <center>
-                        <p>Artiste Name 3</p>
-                      </center>
+                      <p>Artiste Name 3</p>
+                    </center>
                   </div>
                 </div>
               </div> <div className="col s12 m3">
                 <div className="card">
                   <div className="card-image">
-                      <img src={musicCover} />
-                      <span className="card-title">Music</span>
-                    </div>
+                    <img src={musicCover} />
+                    <span className="card-title">Music</span>
+                  </div>
                   <div className="card-action">
-                      <center>
+                    <center>
+                        <p>Artiste Name 3</p>
+                      </center>
+                  </div>
+                </div>
+              </div> <div className="col s12 m3">
+                       <div className="card">
+                  <div className="card-image">
+                             <img src={musicCover} />
+                             <span className="card-title">Music</span>
+                           </div>
+                  <div className="card-action">
+                             <center>
                       <p>Artiste Name 3</p>
                     </center>
-                    </div>
+                           </div>
                 </div>
-                     </div> <div className="col s12 m3">
+                            </div> <div className="col s12 m3">
                 <div className="card">
                            <div className="card-image">
                     <img src={musicCover} />
@@ -337,12 +349,36 @@ const PageOne = () => {
                   </div>
                            <div className="card-action">
                     <center>
-                             <p>Artiste Name 3</p>
-                           </center>
+                                    <p>Artiste Name 3</p>
+                                  </center>
                   </div>
                          </div>
               </div> <div className="col s12 m3">
-                         <div className="card">
+                                <div className="card">
+                  <div className="card-image">
+                                         <img src={musicCover} />
+                                         <span className="card-title">Music</span>
+                                       </div>
+                  <div className="card-action">
+                                         <center>
+                      <p>Artiste Name 3</p>
+                    </center>
+                                       </div>
+                </div>
+                              </div> <div className="col s12 m3">
+                       <div className="card">
+                  <div className="card-image">
+                    <img src={musicCover} />
+                    <span className="card-title">Music</span>
+                  </div>
+                  <div className="card-action">
+                    <center>
+                                    <p>Artiste Name 3</p>
+                                  </center>
+                         </div>
+                </div>
+                            </div> <div className="col s12 m3">
+                <div className="card">
                   <div className="card-image">
                                   <img src={musicCover} />
                                   <span className="card-title">Music</span>
@@ -353,43 +389,7 @@ const PageOne = () => {
                     </center>
                                 </div>
                 </div>
-                              </div> <div className="col s12 m3">
-                <div className="card">
-                                       <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                                       <div className="card-action">
-                    <center>
-                                    <p>Artiste Name 3</p>
-                                  </center>
-                  </div>
-                                     </div>
-                     </div> <div className="col s12 m3">
-                <div className="card">
-                         <div className="card-image">
-                                  <img src={musicCover} />
-                                  <span className="card-title">Music</span>
-                                </div>
-                         <div className="card-action">
-                                  <center>
-                      <p>Artiste Name 3</p>
-                    </center>
-                                </div>
-                       </div>
-              </div> <div className="col s12 m3">
-                <div className="card">
-                                <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                                <div className="card-action">
-                    <center>
-                                                  <p>Artiste Name 3</p>
-                                                </center>
-                  </div>
-                              </div>
-              </div>
+                     </div>
             </div>
           </div>
           <div id="test4" className="col s12">
@@ -402,8 +402,8 @@ const PageOne = () => {
                   </div>
                   <div className="card-action">
                     <center>
-                        <p>Artiste Name 4</p>
-                      </center>
+                      <p>Artiste Name 4</p>
+                    </center>
                   </div>
                 </div>
               </div>
@@ -415,12 +415,24 @@ const PageOne = () => {
                   </div>
                   <div className="card-action">
                     <center>
+                      <p>Artiste Name 4</p>
+                    </center>
+                  </div>
+                </div>
+              </div> <div className="col s12 m3">
+                <div className="card">
+                  <div className="card-image">
+                    <img src={musicCover} />
+                    <span className="card-title">Music</span>
+                  </div>
+                  <div className="card-action">
+                    <center>
                         <p>Artiste Name 4</p>
                       </center>
                   </div>
                 </div>
               </div> <div className="col s12 m3">
-                <div className="card">
+                       <div className="card">
                   <div className="card-image">
                       <img src={musicCover} />
                       <span className="card-title">Music</span>
@@ -431,41 +443,17 @@ const PageOne = () => {
                     </center>
                     </div>
                 </div>
-                     </div> <div className="col s12 m3">
-                <div className="card">
-                    <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                    <div className="card-action">
-                    <center>
-                             <p>Artiste Name 4</p>
-                           </center>
-                  </div>
-                  </div>
-                     </div> <div className="col s12 m3">
-                <div className="card">
-                         <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                         <div className="card-action">
-                    <center>
-                             <p>Artiste Name 4</p>
-                           </center>
-                  </div>
-                       </div>
               </div> <div className="col s12 m3">
-                              <div className="card">
+                       <div className="card">
                   <div className="card-image">
-                                  <img src={musicCover} />
-                                  <span className="card-title">Music</span>
-                                </div>
+                           <img src={musicCover} />
+                           <span className="card-title">Music</span>
+                         </div>
                   <div className="card-action">
-                                  <center>
+                           <center>
                       <p>Artiste Name 4</p>
                     </center>
-                                </div>
+                         </div>
                 </div>
                             </div> <div className="col s12 m3">
                 <div className="card">
@@ -491,26 +479,95 @@ const PageOne = () => {
                     </center>
                                 </div>
                 </div>
-              </div>
+                                   </div> <div className="col s12 m3">
+                <div className="card">
+                                <div className="card-image">
+                    <img src={musicCover} />
+                    <span className="card-title">Music</span>
+                  </div>
+                                <div className="card-action">
+                    <center>
+                                    <p>Artiste Name 4</p>
+                                  </center>
+                  </div>
+                              </div>
+                     </div>
             </div>
           </div>
         </div>
       </div>
-      <div>
+      <div  style={{ margin: '5%' }}>
+        <h4> Also Featured In</h4>
+                <div className="row">
+  <div className="col s12 m3">
+            <div className="card">
+              <div className="card-image">
+                <img src={musicCover} />
+                <span className="card-title">Music</span>
+              </div>
+              <div className="card-action">
+                <center>
+                  <p>Artiste Name 3</p>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div className="col s12 m3">
+            <div className="card">
+              <div className="card-image">
+                <img src={musicCover} />
+                <span className="card-title">Music</span>
+              </div>
+              <div className="card-action">
+                <center>
+                      <p>Artiste Name 3</p>
+                </center>
+              </div>
+            </div>
+          </div> <div className="col s12 m3">
+            <div className="card">
+              <div className="card-image">
+                <img src={musicCover} />
+                    <span className="card-title">Music</span>
+                  </div>
+              <div className="card-action">
+                <center>
+                  <p>Artiste Name 3</p>
+                      </center>
+                  </div>
+            </div>
+          </div> <div className="col s12 m3">
+            <div className="card">
+              <div className="card-image">
+                             <img src={musicCover} />
+                <span className="card-title">Music</span>
+              </div>
+                  <div className="card-action">
+                             <center>
+                      <p>Artiste Name 3</p>
+                    </center>
+                           </div>
+                </div>
+                     </div>
+</div>
+
+
+      </div>
+      <div  style={{ margin: '5%' }}>
         <h5>Tags</h5>
         <div>
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
+          <div className="chip" style={{ backgroundColor: "#00A755" }}> Kinda Life</div>
+         <div className="chip"> Kinda Life</div>
+          <div className="chip"> Kinda Life</div>
+          <div className="chip"> Kinda Life</div>
+
 
           <br />
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
-          <div className="chip"> Kinda Life <i className="close material-icons">close</i></div>
+        <div className="chip"> Kinda Life</div>
+<div className="chip"> Kinda Life</div>
+<div className="chip"> Kinda Life</div>
+<div className="chip"> Kinda Life</div>
+
 
         </div>
         <div>
@@ -523,10 +580,10 @@ const PageOne = () => {
           />
         </div>
       </div>
-      <footer className="page-footer" style={{ backgroundColor: "#535353" }}>
+      <footer className="page-footer" style={{ backgroundColor: '#535353' }}>
         <div className="container">
-        © 2014 Copyright Text
-          <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+        © 2017 EPOHCJ All right reserved
+          <a className="grey-text text-lighten-4 right" href="#!">Home</a>
         </div>
       </footer>
     </div>
