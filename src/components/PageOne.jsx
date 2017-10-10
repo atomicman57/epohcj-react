@@ -89,487 +89,581 @@ const PageOne = () => {
           <div id="test1" className="col s12">
             <div className="row">
               <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name</p>
+                      </center>
+                    </div>
                   </div>
-                  <div className="card-action">
-                    <center>
-                      <p>Artiste Name</p>
-                    </center>
-                  </div>
-                </div>
+                </Link>
               </div>
               <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                      <p>Artiste Name</p>
-                    </center>
-                  </div>
-                </div>
-              </div> <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                        <p>Artiste Name</p>
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name</p>
                       </center>
+                    </div>
                   </div>
-                </div>
-              </div> <div className="col s12 m3">
-                       <div className="card">
-                  <div className="card-image">
-                             <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                           </div>
-                  <div className="card-action">
-                             <center>
-                             <p>Artiste Name</p>
-                           </center>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                          <p className="black-text">Artiste Name</p>
+                        </center>
+                    </div>
                   </div>
-                </div>
-                            </div> <div className="col s12 m3">
-                <div className="card">
-                                  <div className="card-image">
-                           <img src={musicCover} />
-                           <span className="card-title">Music</span>
-                         </div>
-                  <div className="card-action">
-                           <center>
-                      <p>Artiste Name</p>
-                    </center>
-                         </div>
-                                </div>
-                     </div> <div className="col s12 m3">
-                <div className="card">
-                                <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                          <p className="black-text">Artiste Name</p>
+                        </center>
+                    </div>
                   </div>
-                                <div className="card-action">
-                    <center>
-                      <p>Artiste Name</p>
-                    </center>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                          <p className="black-text">Artiste Name</p>
+                        </center>
+                    </div>
                   </div>
-                              </div>
-              </div> <div className="col s12 m3">
-                                     <div className="card">
-                  <div className="card-image">
-                                                <img src={musicCover} />
-                                                <span className="card-title">Music</span>
-                                              </div>
-                  <div className="card-action">
-                                                <center>
-                      <p>Artiste Name</p>
-                    </center>
-                                              </div>
-                </div>
-                                   </div> <div className="col s12 m3">
-                <div className="card">
-                                                     <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                          <p className="black-text">Artiste Name</p>
+                        </center>
+                    </div>
                   </div>
-                                                     <div className="card-action">
-                    <center>
-                                    <p>Artiste Name</p>
-                                  </center>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                          <p className="black-text">Artiste Name</p>
+                        </center>
+                    </div>
                   </div>
-                                                   </div>
-                     </div>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                          <p className="black-text">Artiste Name</p>
+                        </center>
+                    </div>
+                  </div>
+                </Link>
+              </div>              
             </div>
           </div>
           <div id="test2" className="col s12">
             <div className="row">
               <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 2</p>
+                      </center>
+                    </div>
                   </div>
-                  <div className="card-action">
-                    <center>
-                      <p>Artiste Name 2</p>
-                    </center>
-                  </div>
-                </div>
+                </Link>
               </div>
               <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                      <p>Artiste Name 2</p>
-                    </center>
-                  </div>
-                </div>
-              </div> <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                        <p>Artiste Name 2</p>
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 2</p>
                       </center>
+                    </div>
                   </div>
-                </div>
-              </div> <div className="col s12 m3">
-                       <div className="card">
-                  <div className="card-image">
-                             <img src={musicCover} />
-                             <span className="card-title">Music</span>
-                           </div>
-                  <div className="card-action">
-                             <center>
-                      <p>Artiste Name 2</p>
-                    </center>
-                           </div>
-                </div>
-                            </div> <div className="col s12 m3">
-                <div className="card">
-                                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 2</p>
+                      </center>
+                    </div>
                   </div>
-                                  <div className="card-action">
-                    <center>
-                             <p>Artiste Name 2</p>
-                           </center>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 2</p>
+                      </center>
+                    </div>
                   </div>
-                                </div>
-                            </div> <div className="col s12 m3">
-                                <div className="card">
-                  <div className="card-image">
-                                  <img src={musicCover} />
-                                  <span className="card-title">Music</span>
-                                </div>
-                  <div className="card-action">
-                                  <center>
-                      <p>Artiste Name 2</p>
-                    </center>
-                                </div>
-                </div>
-                              </div> <div className="col s12 m3">
-                <div className="card">
-                                       <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 2</p>
+                      </center>
+                    </div>
                   </div>
-                                       <div className="card-action">
-                    <center>
-                      <p>Artiste Name 2</p>
-                    </center>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 2</p>
+                      </center>
+                    </div>
                   </div>
-                                     </div>
-              </div> <div className="col s12 m3">
-                                            <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 2</p>
+                      </center>
+                    </div>
                   </div>
-                  <div className="card-action">
-                                                <center>
-                             <p>Artiste Name 2</p>
-                           </center>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 2</p>
+                      </center>
+                    </div>
                   </div>
-                </div>
-                                          </div>
+                </Link>
+              </div>
             </div>
           </div>
           <div id="test3" className="col s12">
             <div className="row">
               <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 3</p>
+                      </center>
+                    </div>
                   </div>
-                  <div className="card-action">
-                    <center>
-                      <p>Artiste Name 3</p>
-                    </center>
-                  </div>
-                </div>
+                </Link>
               </div>
               <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                      <p>Artiste Name 3</p>
-                    </center>
-                  </div>
-                </div>
-              </div> <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                        <p>Artiste Name 3</p>
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 3</p>
                       </center>
+                    </div>
                   </div>
-                </div>
-              </div> <div className="col s12 m3">
-                       <div className="card">
-                  <div className="card-image">
-                             <img src={musicCover} />
-                             <span className="card-title">Music</span>
-                           </div>
-                  <div className="card-action">
-                             <center>
-                      <p>Artiste Name 3</p>
-                    </center>
-                           </div>
-                </div>
-                            </div> <div className="col s12 m3">
-                <div className="card">
-                           <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 3</p>
+                      </center>
+                    </div>
                   </div>
-                           <div className="card-action">
-                    <center>
-                                    <p>Artiste Name 3</p>
-                                  </center>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 3</p>
+                      </center>
+                    </div>
                   </div>
-                         </div>
-              </div> <div className="col s12 m3">
-                                <div className="card">
-                  <div className="card-image">
-                                         <img src={musicCover} />
-                                         <span className="card-title">Music</span>
-                                       </div>
-                  <div className="card-action">
-                                         <center>
-                      <p>Artiste Name 3</p>
-                    </center>
-                                       </div>
-                </div>
-                              </div> <div className="col s12 m3">
-                       <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 3</p>
+                      </center>
+                    </div>
                   </div>
-                  <div className="card-action">
-                    <center>
-                                    <p>Artiste Name 3</p>
-                                  </center>
-                         </div>
-                </div>
-                            </div> <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                                  <img src={musicCover} />
-                                  <span className="card-title">Music</span>
-                                </div>
-                  <div className="card-action">
-                                  <center>
-                      <p>Artiste Name 3</p>
-                    </center>
-                                </div>
-                </div>
-                     </div>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 3</p>
+                      </center>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 3</p>
+                      </center>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 3</p>
+                      </center>
+                    </div>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
           <div id="test4" className="col s12">
             <div className="row">
               <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                      <p>Artiste Name 4</p>
-                    </center>
-                  </div>
-                </div>
-              </div>
-              <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                      <p>Artiste Name 4</p>
-                    </center>
-                  </div>
-                </div>
-              </div> <div className="col s12 m3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-                  <div className="card-action">
-                    <center>
-                        <p>Artiste Name 4</p>
-                      </center>
-                  </div>
-                </div>
-              </div> <div className="col s12 m3">
-                       <div className="card">
-                  <div className="card-image">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
                       <img src={musicCover} />
                       <span className="card-title">Music</span>
                     </div>
-                  <div className="card-action">
+                    <div className="card-action">
                       <center>
-                      <p>Artiste Name 4</p>
-                    </center>
+                        <p className="black-text">Artiste Name 4</p>
+                      </center>
                     </div>
-                </div>
-              </div> <div className="col s12 m3">
-                       <div className="card">
-                  <div className="card-image">
-                           <img src={musicCover} />
-                           <span className="card-title">Music</span>
-                         </div>
-                  <div className="card-action">
-                           <center>
-                      <p>Artiste Name 4</p>
-                    </center>
-                         </div>
-                </div>
-                            </div> <div className="col s12 m3">
-                <div className="card">
-                                <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
                   </div>
-                                <div className="card-action">
-                    <center>
-                                    <p>Artiste Name 4</p>
-                                  </center>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 4</p>
+                      </center>
+                    </div>
                   </div>
-                              </div>
-              </div> <div className="col s12 m3">
-                              <div className="card">
-                  <div className="card-image">
-                                  <img src={musicCover} />
-                                  <span className="card-title">Music</span>
-                                </div>
-                  <div className="card-action">
-                                  <center>
-                      <p>Artiste Name 4</p>
-                    </center>
-                                </div>
-                </div>
-                                   </div> <div className="col s12 m3">
-                <div className="card">
-                                <div className="card-image">
-                    <img src={musicCover} />
-                    <span className="card-title">Music</span>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 4</p>
+                      </center>
+                    </div>
                   </div>
-                                <div className="card-action">
-                    <center>
-                                    <p>Artiste Name 4</p>
-                                  </center>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 4</p>
+                      </center>
+                    </div>
                   </div>
-                              </div>
-                     </div>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 4</p>
+                      </center>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 4</p>
+                      </center>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 4</p>
+                      </center>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col s12 m3">
+                <Link to="#">
+                  <div className="card">
+                    <div className="card-image">
+                      <img src={musicCover} />
+                      <span className="card-title">Music</span>
+                    </div>
+                    <div className="card-action">
+                      <center>
+                        <p className="black-text">Artiste Name 4</p>
+                      </center>
+                    </div>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div  style={{ margin: '5%' }}>
         <h4> Also Featured In</h4>
-                <div className="row">
-  <div className="col s12 m3">
-            <div className="card">
-              <div className="card-image">
-                <img src={musicCover} />
-                <span className="card-title">Music</span>
+        <div className="row">
+          <div className="col s12 m3">
+            <Link to="#">
+              <div className="card">
+                <div className="card-image">
+                  <img src={musicCover} />
+                  <span className="card-title">Music</span>
+                </div>
+                <div className="card-action">
+                  <center>
+                    <p className="black-text">Artiste Name 3</p>
+                  </center>
+                </div>
               </div>
-              <div className="card-action">
-                <center>
-                  <p>Artiste Name 3</p>
-                </center>
-              </div>
-            </div>
+            </Link>
           </div>
           <div className="col s12 m3">
-            <div className="card">
-              <div className="card-image">
-                <img src={musicCover} />
-                <span className="card-title">Music</span>
-              </div>
-              <div className="card-action">
-                <center>
-                      <p>Artiste Name 3</p>
-                </center>
-              </div>
-            </div>
-          </div> <div className="col s12 m3">
-            <div className="card">
-              <div className="card-image">
-                <img src={musicCover} />
-                    <span className="card-title">Music</span>
-                  </div>
-              <div className="card-action">
-                <center>
-                  <p>Artiste Name 3</p>
-                      </center>
-                  </div>
-            </div>
-          </div> <div className="col s12 m3">
-            <div className="card">
-              <div className="card-image">
-                             <img src={musicCover} />
-                <span className="card-title">Music</span>
-              </div>
-                  <div className="card-action">
-                             <center>
-                      <p>Artiste Name 3</p>
-                    </center>
-                           </div>
+            <Link to="#">
+              <div className="card">
+                <div className="card-image">
+                  <img src={musicCover} />
+                  <span className="card-title">Music</span>
                 </div>
-                     </div>
-</div>
-
-
+                <div className="card-action">
+                  <center>
+                    <p className="black-text">Artiste Name 3</p>
+                  </center>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div className="col s12 m3">
+            <Link to="#">
+              <div className="card">
+                <div className="card-image">
+                  <img src={musicCover} />
+                  <span className="card-title">Music</span>
+                </div>
+                <div className="card-action">
+                  <center>
+                    <p className="black-text">Artiste Name 3</p>
+                  </center>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div className="col s12 m3">
+            <Link to="#">
+              <div className="card">
+                <div className="card-image">
+                  <img src={musicCover} />
+                  <span className="card-title">Music</span>
+                </div>
+                <div className="card-action">
+                  <center>
+                    <p className="black-text">Artiste Name 3</p>
+                  </center>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
       </div>
+
       <div  style={{ margin: '5%' }}>
         <h5>Tags</h5>
         <div>
           <div className="chip" style={{ backgroundColor: "#00A755" }}> Kinda Life</div>
-         <div className="chip"> Kinda Life</div>
           <div className="chip"> Kinda Life</div>
           <div className="chip"> Kinda Life</div>
-
-
+          <div className="chip"> Kinda Life</div>
           <br />
-        <div className="chip"> Kinda Life</div>
-<div className="chip"> Kinda Life</div>
-<div className="chip"> Kinda Life</div>
-<div className="chip"> Kinda Life</div>
-
-
+          <div className="chip"> Kinda Life</div>
+          <div className="chip"> Kinda Life</div>
+          <div className="chip"> Kinda Life</div>
+          <div className="chip"> Kinda Life</div>
         </div>
+
         <div>
           <ReactDisqusComments
             shortname="example"
@@ -580,6 +674,7 @@ const PageOne = () => {
           />
         </div>
       </div>
+      
       <footer className="page-footer" style={{ backgroundColor: '#535353' }}>
         <div className="container">
         © 2017 EPOHCJ All right reserved
