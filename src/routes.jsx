@@ -7,7 +7,7 @@ import PageTwo from './components/PageTwo.jsx';
 export default (
   <div>
     <Route path="/" component={App}>
-      <IndexRoute component={PageOne} />
+      <IndexRoute component={PageTwo} />
       <Route path="pagetwo" component={PageTwo} />
     </Route>
   </div>

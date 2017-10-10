@@ -14,11 +14,26 @@ import artiste4 from '../assets/images/artiste4.jpg';
 import artiste5 from '../assets/images/artiste5.png';
 import artiste6 from '../assets/images/artiste6.jpg';
 import artiste7 from '../assets/images/artiste7.jpg';
+import phone from '../assets/images/phone.png';
+import address from '../assets/images/address.png';
+import message from '../assets/images/message.png';
+import music from '../assets/images/music.png';
 import fela from '../assets/images/fela.jpg';
-
-
 import musicCover from '../assets/images/musiccover.jpg';
 import naijaFlag from '../assets/images/Nigeria-icon.png';
+import fbround from '../assets/images/fbround.png';
+import twround from '../assets/images/twround.png';
+import iground from '../assets/images/iground.png';
+import gpround from '../assets/images/gpround.png';
+import ytround from '../assets/images/ytround.png';
+import fb from '../assets/images/fb.png';
+import tw from '../assets/images/tw.png';
+import ig from '../assets/images/ig.png';
+import cloud from '../assets/images/cloud.png';
+import gp from '../assets/images/gp.png';
+import linkedin from '../assets/images/li.png';
+import mg from '../assets/images/mg.png';
+
 
 const settings = {
   dots: true,
@@ -401,22 +416,119 @@ const PageTwo = () => (
             <h5>
         CONNECT WITH US
             </h5>
-            <hr className="left myhr" style={{ width: "25%"}} />
+            <hr className="left myhr" style={{ width: '25%' }} />
             <br />
             <h5>IF YOU HAVE A QUESTION,COMMENT,EVENT
               <br />
-               INQUIRY OR BOOKING REQUEST, FEEL FREE 
-               <br />
+               INQUIRY OR BOOKING REQUEST, FEEL FREE
+              <br />
                TO SEND US A MESSAGE AND WE WILL GET BACK
               TO YOU
             </h5>
+            <br />
+            <div className="row">
+              <div className="col s2">
+                <img src={address} style={{ height: '80px' }} />
+              </div>
+              <div className="col s4" style={{ marginTop: '25px' }}>
+               ADDRESS COMES HERE
+              </div>
+              <br />
+            </div>
+            <div className="row">
+              <div className="col s2">
+                <img src={phone} style={{ height: '80px' }} />
+              </div>
+              <div className="col s4" style={{ marginTop: '25px' }}>
+               (000)000-000
+              </div>
+              <br />
+            </div>
+            <div className="row">
+              <div className="col s2">
+                <img src={message} style={{ height: '80px' }} />
+              </div>
+              <div className="col s4" style={{ marginTop: '25px' }}>
+               CONTACT@EPHOJ.COM.NG
+              </div>
+              <br />
+            </div>
           </div>
           <div className="col s6">
-aaaa
+            <h5>
+        DROP US A LINE
+            </h5>
+            <hr className="left myhr" style={{ width: '25%' }} />
+            <br />
+            <div className="row">
+              <div className="col s6">
+                <input type="text" placeholder="NAME (REQUIRED)" />
+              </div>
+              <div className="col s6">
+                <input type="text" placeholder="EMAIL (REQUIRED)" />
+              </div>
+              <div className="col s12">
+                <input type="text" placeholder="SUBJECT" />
+              </div>
+              <div className="col s12">
+                <textarea className="materialize-textarea" style={{ height: '200px' }} />
+              </div>
+            </div>
+            <button className="waves-effect waves-light btn mybutton3">SEND</button>
           </div>
-
         </div>
       </div>
+    </div>
+    <div className="mydiv2" style={{ color: 'white' }}>
+      <center>
+        <h2>
+        PRODUCERS
+        </h2>
+        <hr className="myhr" style={{ borderColor: 'red' }} />
+        <h5>RECENT PHOTOS OF MOST POPULAR PRODUCERS</h5>
+        <br />
+        <div>
+          <input type="text" className="mytext2" placeholder="EMAIL ADDRESS" />
+          <button className="btn mybutton4" >SUBSCRIBE</button>
+        </div>
+        <br />
+        <img src={music} />
+        <br />
+        <img src={fbround} style={{ height: '100px', marginRight: '2%' }} />
+        <img src={twround} style={{ height: '100px', marginRight: '2%' }} />
+        <img src={iground} style={{ height: '100px', marginRight: '2%' }} />
+        <img src={gpround} style={{ height: '100px', marginRight: '2%' }} />
+        <img src={ytround} style={{ height: '100px', marginRight: '2%' }} />
+        <br />
+        <h5> GET CONNECTED WITH YOUR FAVOURITE YOUNG AND DUMB CREW</h5>
+      </center>
+    </div>
+    <div className="mydiv3">
+      <center>
+        <div className="row" style={{ fontSize: '22px' }}>
+          <div className="col s1"><a href="#" className="mylink"> ARTIST </a></div>
+          <div className="col s1"> <a href="#" className="mylink"> EVENTS </a></div>
+          <div className="col s1"> <a href="#" className="mylink">NEWS </a></div>
+          <div className="col s1"> <a href="#" className="mylink">STORE </a></div>
+          <div className="col s3"> <a href="#" className="mylink">BACK TO THE TOP </a></div>
+          <div className="col s2"> <a href="#" className="mylink"> T: 000 000 000 </a></div>
+          <div className="col s3"> <a href="#" className="mylink"> E:CONTACT@EPHOC.COM </a></div>
+        </div>
+        <br />
+        <h5>COPYRIGHT 2017 &copy; EPHOCJ</h5>
+        <br />
+        <h6>DESIGN & DEVELOPMENT BY EPHOCJ</h6>
+        <br />
+        <h6>TERMS/PRIVACY POLICY</h6>
+        <br />
+        <img src={fb} style={{ height: '20px', marginRight: '2%' }} />
+        <img src={ig} style={{ height: '20px', marginRight: '2%' }} />
+        <img src={linkedin} style={{ height: '20px', marginRight: '2%' }} />
+        <img src={tw} style={{ height: '20px', marginRight: '2%' }} />
+        <img src={gp} style={{ height: '20px', marginRight: '2%' }} />
+        <img src={cloud} style={{ height: '20px', marginRight: '2%' }} />
+        <img src={mg} style={{ height: '20px', marginRight: '2%' }} />
+      </center>
     </div>
   </div>
 );
