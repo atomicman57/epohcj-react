@@ -26,7 +26,7 @@ const PageOne = () => {
             <li><Link to="#">Labels</Link></li>
             <li><Link to="#">Producers</Link></li>
             <li><Link to="#">Radio</Link></li>
-            <li><Link to="pagetwo">Page 2</Link></li>
+            <li><Link to="/">Page 2</Link></li>
             <li style={{ margin: '0 50px' }}><a href="#"><i className="material-icons">search</i></a></li>
             <li className="mylogin"><Link to="#" style={{ borderRight: '1px white solid' }}>   Login </Link></li>
             <li className="mylogin"><Link to="#">Register</Link></li>
@@ -42,7 +42,7 @@ const PageOne = () => {
             <li><Link to="#">Labels</Link></li>
             <li><Link to="#">Producers</Link></li>
             <li><Link to="#">Radio</Link></li>
-            <li><Link to="pagetwo">Page 2</Link></li>
+            <li><Link to="/">Page 2</Link></li>
             <li><a href="#"><i className="material-icons">search</i></a></li>
             <li><Link to="#">Login</Link></li>
             <li><Link to="#">Register</Link></li>

@@ -67,7 +67,7 @@ const PageTwo = () => (
             <li><Link to="#">Labels</Link></li>
             <li><Link to="#">Producers</Link></li>
             <li><Link to="#">Radio</Link></li>
-            <li><Link to="/">Page 1</Link></li>
+            <li><Link to="pagetwo">Page 1</Link></li>
             <li style={{ marginLeft: '30px', borderRight: '1px white solid' }} className="mylogin"><a href="#"><i className="material-icons">add_shopping_cart</i></a></li>
             <li style={{ borderRight: '1px white solid' }} className="mylogin"><a href="#"><img style={{ position: 'relative', top: 10 }} src={naijaFlag} /></a></li>
             <li style={{ borderRight: '1px white solid' }} className="mylogin"><a href="#"><i className="material-icons">search</i></a></li>
@@ -85,7 +85,7 @@ const PageTwo = () => (
             <li><Link to="#">Labels</Link></li>
             <li><Link to="#">Producers</Link></li>
             <li><Link to="#">Radio</Link></li>
-            <li><Link to="/">Page 1</Link></li>
+            <li><Link to="pagetwo">Page 1</Link></li>
             <li><a href="#"><i className="material-icons">search</i></a></li>
             <li><Link to="#">Login</Link></li>
             <li><Link to="#">Register</Link></li>
