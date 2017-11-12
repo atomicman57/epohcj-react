@@ -1,0 +1,5 @@
+Mailgun
+------------
+'secret'	=>	'key-b223a98101c6755b97a09820aa908605',
+'domain'	=>	'pritibox.com',
+'public-key'	=>	'pubkey-7160c36f25a3c634148d877aa436e76c',
