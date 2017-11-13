@@ -5,6 +5,68 @@
   <main>
     
   <?php include 'include/navigation.inc.html'; ?>
+  <div class="static_block1 hidden-xs">
+    <div class="static row-fluid">
+      <div class="container">
+        <div class="static-home-bottom">
+          <div class="row">
+            <div class="left-static-home-bottom col-md-3 col-sm-6 col-xs-12">
+              <div class="banner_block_content">
+                <div class="left_content">
+                  <div class="rorate_em">
+                    <em class="fa fa-truck"></em>
+                    <p style="display: none;">text</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <a href="#">Free door delivery</a>
+                </div>
+              </div>
+            </div>
+            <div class="left-center-static-home-bottom col-md-3 col-sm-6 col-xs-12">
+              <div class="banner_block_content">
+                <div class="left_content">
+                  <div class="rorate_em">
+                    <em class="fa fa-headphones"></em>
+                    <p style="display: none;">text</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <a href="#">24/7 customer care</a>
+                </div>
+              </div>
+            </div>
+            <div class="right-center-static-home-bottom col-md-3 col-sm-6 col-xs-12">
+              <div class="banner_block_content">
+                <div class="left_content">
+                  <div class="rorate_em">
+                    <em class="fa fa-gift"></em>
+                    <p style="display: none;">text</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <a href="#">Festival gift vouchersr</a>
+                </div>
+              </div>
+            </div>
+            <div class="right-static-home-bottom col-md-3 col-sm-6 col-xs-12">
+              <div class="banner_block_content">
+                <div class="left_content">
+                  <div class="rorate_em">
+                    <em class="fa  fa-repeat"></em>
+                    <p style="display: none;">text</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <a href="#">Safe Payment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- SLIDER SHOW -->
   <div id="field_slideshow" class="slideshow">
     <div class="field-main-slider  block" style="overflow: hidden;">
