@@ -264,17 +264,7 @@
 </div>
             <!--END SLIDER SHOW -->
             
-                
-<aside id="notifications">
-  <div class="container">
-    
-    
-    
-      </div>
-</aside>
-            
             <section id="wrapper" class="active_grid">
-                <h2 style="display:none !important">.</h2>
                 
     <section id="content" class="page-home">
     
