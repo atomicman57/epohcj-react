@@ -38,12 +38,6 @@
                                     Addresses
                                 </span>
                             </a>
-                            <a class="col-lg-4 col-md-6 col-sm-6 col-xs-12" id="history-link" href="http://demo.fieldthemes.com/ps_modo/home1/en/order-history">
-                                <span class="link-item">
-                                    <i class="material-icons">&#xE916;</i>
-                                    Orders
-                                </span>
-                            </a>
                             <a class="col-lg-4 col-md-6 col-sm-6 col-xs-12" id="order-slips-link" href="http://demo.fieldthemes.com/ps_modo/home1/en/credit-slip">
                                 <span class="link-item">
                                     <i class="material-icons">&#xE8B0;</i>
@@ -54,6 +48,18 @@
                                 <span class="link-item">
                                     <i class="material-icons">&#xE8D3;</i>
                                     Referrals
+                                </span>
+                            </a>
+                            <a class="col-lg-4 col-md-6 col-sm-6 col-xs-12" id="history-link" href="http://demo.fieldthemes.com/ps_modo/home1/en/order-history">
+                                <span class="link-item">
+                                    <i class="material-icons">&#xE916;</i>
+                                    Orders
+                                </span>
+                            </a>
+                            <a class="col-lg-4 col-md-6 col-sm-6 col-xs-12" id="history-link" href="http://demo.fieldthemes.com/ps_modo/home1/en/order-history">
+                                <span class="link-item">
+                                    <i class="material-icons">&#xE916;</i>
+                                    Wishlist
                                 </span>
                             </a>
                         </div>
