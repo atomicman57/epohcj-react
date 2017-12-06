@@ -22,17 +22,8 @@
                     <section id="content" class="page-content">
                         <div class="address-form">
                             <div class="js-address-form">
-                                <form
-                                method="POST"
-                                action="//demo.fieldthemes.com/ps_modo/home1/en/address?id_address=0"
-                                data-id-address="0"
-                                data-refresh-url="//demo.fieldthemes.com/ps_modo/home1/en/address?ajax=1&action=addressForm"
-                                >
+                                <form method="POST" action="" >
                                 <section class="form-fields">
-                                    <input type="hidden" name="id_address" value="">
-                                    <input type="hidden" name="id_customer" value="">
-                                    <input type="hidden" name="back" value="">
-                                    <input type="hidden" name="token" value="54151b0dde74b458b90fd00c4c85a602">
                                     <div class="form-group row ">
                                         <label class="col-md-3 form-control-label">
                                             Alias

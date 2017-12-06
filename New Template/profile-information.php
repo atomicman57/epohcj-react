@@ -19,7 +19,7 @@
                         </h1>
                     </header>
                     <section id="content" class="page-content">
-                        <form action="http://demo.fieldthemes.com/ps_modo/home1/en/identity" id="customer-form" class="js-customer-form" method="post">
+                        <form action="" id="customer-form" class="js-customer-form" method="post">
                             <section>
                                 <input type="hidden" name="id_customer" value="4">
                                 <div class="form-group row ">

@@ -67,7 +67,7 @@
                 </section>
                 <footer class="page-footer">
                     <div class="text-xs-center">
-                        <a href="http://demo.fieldthemes.com/ps_modo/home1/en/?mylogout=" >
+                        <a href="#">
                             Change Password
                         </a>
                     </div>
