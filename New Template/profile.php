@@ -6,9 +6,10 @@
 
 <div class="bn-top">
     <div class="container_img_bread no-img">
-        <p><img class="img-responsive" src="images/bn-top.jpg" alt="" /></p>
+        <a href="become-a-tailor.php"><img class="img-responsive" src="images/bn-top.jpg" alt="" /></a>
     </div>
 </div>
+<p class="text-center" style="margin-top: 5px;"><a href="#">Hide banner, I'm not a tailor!</a></p>
 
 <div style="margin-top: 20px;"></div>
 <section id="wrapper" class="active_grid">
