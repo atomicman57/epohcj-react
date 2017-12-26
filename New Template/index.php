@@ -5,7 +5,7 @@
   <main>
     
   <?php include 'include/navigation.inc.html'; ?>
-  <div class="static_block1 hidden-xs">
+  <div class="static_block1 hidden-xs"> <!-- Take note -->
     <div class="static row-fluid">
       <div class="container">
         <div class="static-home-bottom">

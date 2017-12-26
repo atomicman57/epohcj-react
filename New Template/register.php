@@ -29,7 +29,6 @@
                         <p>Already have an account? <a href="login.html">Log in instead!</a></p>
                         <form action="" id="customer-form" class="js-customer-form" method="post">
                             <section>
-                                <input type="hidden" name="id_customer" value="">
                                 <div class="form-group row ">
                                     <label class="col-md-3 form-control-label">
                                         Social title
