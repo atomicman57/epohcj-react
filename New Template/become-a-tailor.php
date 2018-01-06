@@ -1,78 +1,14 @@
 <?php include 'include/header.inc.html'; ?>
 <title>Become a Tailor | PhantFashion</title>
 <style type="text/css">
-span.multiselect-native-select {
-    position: relative
-}
-span.multiselect-native-select select {
-    border: 0!important;
-    clip: rect(0 0 0 0)!important;
-    height: 1px!important;
-    margin: -1px -1px -1px -3px!important;
-    overflow: hidden!important;
-    padding: 0!important;
-    position: absolute!important;
-    width: 1px!important;
-    left: 50%;
-    top: 30px
-}
-.multiselect-container {
-    position: absolute;
-    list-style-type: none;
-    margin: 0;
-    padding: 0
-}
-.multiselect-container .input-group {
-    margin: 5px
-}
-.multiselect-container>li {
-    padding: 0
-}
-.multiselect-container>li>a.multiselect-all label {
-    font-weight: 700
-}
-.multiselect-container>li.multiselect-group label {
-    margin: 0;
-    padding: 3px 20px 3px 20px;
-    height: 100%;
-    font-weight: 700
-}
-.multiselect-container>li.multiselect-group-clickable label {
-    cursor: pointer
-}
-.multiselect-container>li>a {
-    padding: 0
-}
-.multiselect-container>li>a>label {
-    margin: 0;
-    height: 100%;
-    cursor: pointer;
-    font-weight: 400;
-    padding: 3px 0 3px 30px
-}
-.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox {
-    margin: 0
-}
-.multiselect-container>li>a>label>input[type=checkbox] {
-    margin-bottom: 5px
-}
-.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px
-}
-.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio {
-    padding: 3px 20px 3px 40px
-}
-.form-inline .multiselect-container li a label.checkbox input[type=checkbox], .form-inline .multiselect-container li a label.radio input[type=radio] {
-    margin-left: -20px;
-    margin-right: 0
+.services-checkbox{
+    margin-bottom: 15px;
 }
 </style>
 </head>
-<body id="index" class="lang-en country-us currency-usd layout-full-width page-index tax-display-disabled fullwidth">
-  <main>
+<body>
     
-  <?php include 'include/navigation.inc.html'; ?>
+<?php include 'include/navigation.inc.html'; ?>
             
 <div class="bn-top">
     <div class="container_img_bread no-img">
@@ -205,25 +141,149 @@ span.multiselect-native-select select {
                                         Services
                                     </label>
                                     <div class="col-md-6">
-                                        <select class="form-control form-control-select">
-                                            <option value="">-- please choose --</option>
-                                            <option value="Shirt (male or female)">Shirt (male or female)</option>
-                                            <option value="Pant trousers (male or female)">Pant trousers (male or female)</option>
-                                            <option value="Jeans (male or female)">Jeans (male or female)</option>
-                                            <option value="Suites (male or female)">Suites (male or female)</option>
-                                            <option value="Traditional wears">Traditional wears</option>
-                                            <option value="Senator suites (male or female)">Senator suites (male or female)</option>
-                                            <option value="Shoes (male or female)">Shoes (male or female)</option>
-                                            <option value="Sandals (male or female)">Sandals (male or female)</option>
-                                            <option value="Bags (male or female)">Bags (male or female)</option>
-                                            <option value="Palms (male or female)">Palms (male or female)</option>
-                                            <option value="Beats work">Beats work</option>
-                                            <option value="Hart, cap">Hart, cap</option>
-                                            <option value="Wedding gown">Wedding gown</option>
-                                            <option value="T-shirts">T-shirts</option>
-                                            <option value="Gown">Gown</option>
-                                            <option value="Etc.">Etc.</option>
-                                        </select>
+                                        <div class="row" style="text-align: left;">
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Shirt (male or female)
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Pant trousers (male or female)
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Jeans (male or female)
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Suites (male or female)
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Traditional wears
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Senator suites (male or female)
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Shoes (male or female)
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Sandals (male or female)
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Bags (male or female)
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Palms (male or female)
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Beats work
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Hart, cap
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Wedding gown
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> T-shirts
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Gown
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6 services-checkbox">
+                                                <span class="custom-checkbox">
+                                                    <input name="services" type="checkbox" value="">
+                                                    <span>
+                                                        <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                                    </span> Etc.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 form-control-comment"></div>
+                                </div>
+                                <div style="margin-top: 20px;"></div>
+                                <div class="form-group row" style="text-align: left;">
+                                    <label class="col-md-3 form-control-label"></label>
+                                    <div class="col-md-6">
+                                        <span class="custom-checkbox">
+                                            <input name="newsletter" type="checkbox" value="1">
+                                            <span>
+                                                <i class="material-icons checkbox-checked">&#xE5CA;</i>
+                                            </span> I agree to the <a href="#">Terms &amp; Conditions</a>
+                                        </span>
                                     </div>
                                     <div class="col-md-3 form-control-comment"></div>
                                 </div>

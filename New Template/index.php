@@ -1,8 +1,7 @@
 <?php include 'include/header.inc.html'; ?>
 <title>PhantFashion</title>
 </head>
-<body id="index" class="lang-en country-us currency-usd layout-full-width page-index tax-display-disabled fullwidth">
-  <main>
+<body>
     
   <?php include 'include/navigation.inc.html'; ?>
   <div class="static_block1 hidden-xs"> <!-- Take note -->

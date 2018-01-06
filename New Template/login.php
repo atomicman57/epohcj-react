@@ -1,8 +1,8 @@
 <?php include 'include/header.inc.html'; ?>
 <title>Login | PhantFashion</title>
 </head>
-<body id="index" class="lang-en country-us currency-usd layout-full-width page-index tax-display-disabled fullwidth">
-  <?php include 'include/navigation.inc.html'; ?>
+<body>
+<?php include 'include/navigation.inc.html'; ?>
             
 <div class="bn-top">
     <div class="container_img_bread no-img">

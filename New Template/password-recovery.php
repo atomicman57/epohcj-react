@@ -1,7 +1,7 @@
 <?php include 'include/header.inc.html'; ?>
 <title>Password recovery | PhantFashion</title>
 </head>
-<body id="password" class="lang-en country-us currency-usd layout-full-width page-password tax-display-disabled page-customer-account fullwidth">
+<body>
 
 <?php include 'include/navigation.inc.html'; ?>
 

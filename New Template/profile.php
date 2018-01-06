@@ -1,7 +1,7 @@
 <?php include 'include/header.inc.html'; ?>
 <title>Profile | PhantFashion</title>
 </head>
-    <body id="my-account" class="lang-en country-us currency-usd layout-full-width page-my-account tax-display-disabled fullwidth">
+<body>
 <?php include 'include/navigation.inc.html'; ?>
 
 <div class="bn-top">

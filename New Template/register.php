@@ -1,10 +1,8 @@
 <?php include 'include/header.inc.html'; ?>
 <title>Register | PhantFashion</title>
 </head>
-<body id="index" class="lang-en country-us currency-usd layout-full-width page-index tax-display-disabled fullwidth">
-  <main>
-    
-  <?php include 'include/navigation.inc.html'; ?>
+<body>    
+<?php include 'include/navigation.inc.html'; ?>
             
 <div class="bn-top">
     <div class="container_img_bread no-img">
@@ -164,7 +162,7 @@
                                 </div>
                                 <div class="col-md-3 form-control-comment"></div>
                             </div>
-                            <div class="form-group row ">
+                            <div class="form-group row">
                                 <label class="col-md-3 form-control-label"></label>
                                 <div class="col-md-6">
                                     <span class="custom-checkbox">
