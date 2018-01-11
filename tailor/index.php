@@ -45,7 +45,7 @@
             <span class="info-box-icon bg-aqua"><i class="fa fa-male"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Designs</span>
+              <span class="info-box-text">Styles</span>
               <span class="info-box-number">90</span>
             </div>
             <!-- /.info-box-content -->
@@ -166,7 +166,7 @@
         <div class="col-md-4">
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Recently Added Designs</h3>
+              <h3 class="box-title">Recently Added Styles</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -226,7 +226,7 @@
               </ul>
             </div>
             <div class="box-footer text-center">
-              <a href="javascript:void(0)" class="uppercase">View All Designs</a>
+              <a href="javascript:void(0)" class="uppercase">View All Styles</a>
             </div>
           </div>
         </div>
