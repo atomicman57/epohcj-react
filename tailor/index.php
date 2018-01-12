@@ -233,25 +233,5 @@
       </div>
     </section>
   </div>
-
-  <footer class="main-footer">
-    <strong>Copyright &copy; 2018 <a href="https://phantfashion.com/">PhantFashion</a>.</strong> All rights
-    reserved.
-  </footer>
-
-</div>
-<!-- ./wrapper -->
-
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/fastclick.js"></script>
-<script src="assets/js/main.js"></script>
-<script src="assets/js/jquery.sparkline.min.js"></script>
-<script src="assets/js/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="assets/js/jquery-jvectormap-world-mill-en.js"></script>
-<script src="assets/js/jquery.slimscroll.min.js"></script>
-<script src="assets/js/Chart.js"></script>
-<script src="assets/js/dashboard.js"></script>
-<script src="assets/js/demo.js"></script>
-</body>
-</html>
+  
+  <?php include 'include/footer.php'; ?>

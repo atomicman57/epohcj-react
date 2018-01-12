@@ -10,7 +10,7 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="#"><i class="fa fa-circle-o"></i> Add new</a></li>
+          <li><a href="add-style.php"><i class="fa fa-circle-o"></i> Add new</a></li>
           <li><a href="#"><i class="fa fa-circle-o"></i> My styles</a></li>
         </ul>
       </li>
@@ -37,6 +37,11 @@
           <i class="fa fa-envelope-open"></i> <span>Contact messages</span>
         </a>
       </li>
+      <li class="bg-green">
+        <a href="#" style="">
+          <i class="fa fa-reply" style=""></i>
+          <span style="">Back to website</span></a>
+        </li>
     </ul>
   </section>
 </aside>
