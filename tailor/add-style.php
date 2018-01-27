@@ -72,6 +72,7 @@
                   	<option value="male">Male Shirts</option>
                   	<option value="female">Male Suits</option>
                   </select>
+                  <p class="help-block">Not listed? <a href="#">Click here</a></p> <!-- Take user to profile update page -->
                 </div>
                 <label for="amount">Customization</label>
                 <div class="help-block">
