@@ -271,7 +271,7 @@
 <div class="row" style="margin: 0;">
 <div class="col-xs-12 col-sm-12 col-md-6 block" style="padding: 0;"><a href="#"> <img class="img-responsive" src="modules/fieldstaticblocks/images/bn_11.jpg" alt="" /> </a></div>
 <div class="content_text">
-<p>Discount up to 50%</p>
+<p style="color: #333;">Discount up to 570%</p>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-6 block" style="padding: 0;"><a href="#"> <img class="img-responsive" src="modules/fieldstaticblocks/images/bn_12.jpg" alt="" /> </a></div>
 </div>
