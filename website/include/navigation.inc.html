@@ -462,16 +462,11 @@
               </div>
             </div>
             <div id="sticky_top">
-              <!-- block seach mobile -->
-              <!-- Block search module TOP -->
               <div id="search_block_top" class="dropdown js-dropdown">
                 <div class="current fa fa-search expand-more" data-toggle="dropdown"></div>
                 <div class="dropdown-menu">
                   <div class="field-search">
-                    <form method="get" action="http://demo.fieldthemes.com/ps_modo/home1/en/search" id="searchbox">
-                      <input type="hidden" name="controller" value="search" />
-                      <input type="hidden" name="orderby" value="position" />
-                      <input type="hidden" name="orderway" value="desc" />
+                    <form method="get" id="searchbox">
                       <input class="search_query" type="text" id="search_query_top" name="search_query" value=""  placeholder="Keyword"/>
                       <button type="submit" name="submit_search" class="btn button-search">
                         <span class="icon-search"></span>
@@ -480,56 +475,19 @@
                   </div>
                 </div>
               </div>
-              <!-- /Block search module TOP -->
-              <div id="cart_block_top" class="sticky_top">
-                <div class="blockcart cart-preview inactive" data-refresh-url="//demo.fieldthemes.com/ps_modo/home1/en/module/ps_shoppingcart/ajax">
+
+              <div id="cart_block_top">
+                <div class="blockcart inactive">
                   <div class="click-cart">
-                    <span class="unline_cart">
-                      <span class="cart-products-count">0</span>
-                      <span class="cart-item-top">Item -</span>
-                      <span class="cart-total-top">$0.00</span>
-                    </span>
                     <span class="shopping-cart">
                       <span class="fa fa-shopping-cart">
                         Shopping Cart
                       </span>
-                      <span class="cart-products-count">(0)</span>
+                      <span class="cart-products-count">
+                      	<span class="cart-quantity">2</span>
+                      </span>
                     </span>
                   </div>
-                  <div class="cart_top_ajax">
-                    <div class="card-block-top" style="border-top:none">
-                      There are no more items in your cart
-                    </div>
-                    <div class="card-block-top">
-                      <div class="totals-top">
-                        <span class="label-top">Total (tax excl.)</span>
-                        <span class="value-top price">$0.00</span>
-                      </div>
-                      <div class="totals-top">
-                        <span class="label-top">Taxes</span>
-                        <span class="value-top price">$0.00</span>
-                      </div>
-                    </div>
-                    <div class="card-block-top">
-                      <a href="cart75f4.html?action=show" class="view-cart">View Cart</a>
-                    </div>
-                  </div>
-
-                  <script type="text/javascript">
-                  $(document).ready(function () {
-                    $(".click-cart").click(function(e) {
-                          $(".cart_top_ajax").slideToggle();
-                      $(".click-cart").toggleClass('active');
-                      
-                      e.stopPropagation();
-                      });
-                    $("body").click(function(e) {
-                           $(".cart_top_ajax").slideUp();
-                       $(".click-cart").removeClass('active');
-                      });
-                  });
-                  </script>
-
                 </div>
               </div>
             </div>

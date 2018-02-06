@@ -4,3 +4,15 @@
 .space-10{
     margin-top: 10px;
 }
+.cart-quantity{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: #CB7A01;
+	color: #ffffff;
+	display: inline-block;
+	padding: 2px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 16px;
+}
