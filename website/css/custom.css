@@ -16,3 +16,9 @@
 	font-size: 13px;
 	line-height: 16px;
 }
+.checkout-btn{
+	background: #CB7A01 !important;
+}
+.checkout-btn:hover{
+	background: #222 !important;
+}
