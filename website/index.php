@@ -4,68 +4,6 @@
 <body>
     
   <?php include 'include/navigation.inc.html'; ?>
-  <div class="static_block1 hidden-xs"> <!-- Take note -->
-    <div class="static row-fluid">
-      <div class="container">
-        <div class="static-home-bottom">
-          <div class="row">
-            <div class="left-static-home-bottom col-md-3 col-sm-6 col-xs-12">
-              <div class="banner_block_content">
-                <div class="left_content">
-                  <div class="rorate_em">
-                    <em class="fa fa-truck"></em>
-                    <p style="display: none;">text</p>
-                  </div>
-                </div>
-                <div class="content">
-                  <a href="#">Free door delivery</a>
-                </div>
-              </div>
-            </div>
-            <div class="left-center-static-home-bottom col-md-3 col-sm-6 col-xs-12">
-              <div class="banner_block_content">
-                <div class="left_content">
-                  <div class="rorate_em">
-                    <em class="fa fa-headphones"></em>
-                    <p style="display: none;">text</p>
-                  </div>
-                </div>
-                <div class="content">
-                  <a href="#">24/7 customer care</a>
-                </div>
-              </div>
-            </div>
-            <div class="right-center-static-home-bottom col-md-3 col-sm-6 col-xs-12">
-              <div class="banner_block_content">
-                <div class="left_content">
-                  <div class="rorate_em">
-                    <em class="fa fa-gift"></em>
-                    <p style="display: none;">text</p>
-                  </div>
-                </div>
-                <div class="content">
-                  <a href="#">Festival gift vouchersr</a>
-                </div>
-              </div>
-            </div>
-            <div class="right-static-home-bottom col-md-3 col-sm-6 col-xs-12">
-              <div class="banner_block_content">
-                <div class="left_content">
-                  <div class="rorate_em">
-                    <em class="fa  fa-repeat"></em>
-                    <p style="display: none;">text</p>
-                  </div>
-                </div>
-                <div class="content">
-                  <a href="#">Safe Payment</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- SLIDER SHOW -->
   <div id="field_slideshow" class="slideshow">
     <div class="field-main-slider  block" style="overflow: hidden;">
@@ -77,18 +15,17 @@
         <div data-u="slides" style="width: 1920px; height: 650px">
           <div class="field-main-slider_1">
             <a href="#">
-              <img class="img-slider" src="images/slides/slider-111.jpg" alt="" data-u="image">
+              <img class="img-slider" src="images/slides/slider-111.jpg" alt="">
             </a>
             <div class="box-slider">
-              <div class="large-slide-title title_font"  data-u="caption" data-t="T-*IB" data-t2="ZML|TR" data-d="-300">Autumn 2017 collection</div>
-              <div class="big-slide-title title_font" data-u="caption" data-t="ZM*WVR|LB" data-t2="WVC|R" data-d="-300">
+              <div class="big-slide-title">
                 fashion for men
               </div>
-              <div class="small-slide-title title_font"  data-u="caption" data-t="TORTUOUS|HL" data-t2="JDN|B" data-d="-300">
+              <div class="small-slide-title">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh.</p>
               </div>
-              <div class="div-slide-button shop_now" data-u="caption" data-t="B-R*">
-                <a class="slide-button title_font" href="#">
+              <div class="div-slide-button">
+                <a class="slide-button href="#">
                   Shop now !
                 </a>
               </div>
@@ -97,20 +34,20 @@
 
           <div class="field-main-slider_2">
             <a href="#">
-              <img class="img-slider" src="images/slides/slider-222.jpg" alt="" data-u="image">
+              <img class="img-slider" src="images/slides/slider-222.jpg" alt="">
             </a>
             <div class="box-slider">
-              <div class="large-slide-title title_font"  data-u="caption" data-t="ZM*JUP1|T" data-t2="FLTTRWN|LT">
+              <div class="large-slide-title">
                 Autumn 2017 collection
               </div>
-              <div class="big-slide-title title_font" data-u="caption" data-t="ZM*JUP1|T" data-t2="FLTTRWN|LT">
+              <div class="big-slide-title">
                 watches fashion
               </div>
-              <div class="small-slide-title title_font"  data-u="caption" data-t="ZM*JUP1|L" data-t2="TORTUOUS|HL">
+              <div class="small-slide-title">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh.</p>
               </div>
-              <div class="div-slide-button shop_now" data-u="caption" data-t="ZM*JUP1|B">
-                <a class="slide-button title_font" href="#">
+              <div class="div-slide-button">
+                <a class="slide-button" href="#">
                   Shop now !
                 </a>
               </div>
@@ -122,17 +59,17 @@
               <img class="img-slider" src="images/slides/slider-333.jpg" alt="" data-u="image">
             </a>
             <div class="box-slider">
-              <div class="large-slide-title title_font"  data-u="caption" data-t="ZM*WVR|RT" data-t2="WVC|B" data-d="-300">
+              <div class="large-slide-title">
                 Autumn 2017 collection
               </div>
-              <div class="big-slide-title title_font" data-u="caption" data-t="ZM*WVR|LB" data-t2="WVC|T" data-d="-300">
+              <div class="big-slide-title">
                 Sunning handbag
               </div>
-              <div class="small-slide-title title_font"  data-u="caption" data-t="DDGDANCE|RB" data-t2="WVC|T" data-d="-300">
+              <div class="small-slide-title">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh.</p>
               </div>
-              <div class="div-slide-button shop_now" data-u="caption" data-t="ZM*WVR|LB" data-t2="WVC|T" data-d="-300">
-                <a class="slide-button title_font" href="#">
+              <div class="div-slide-button">
+                <a class="slide-button" href="#">
                   Shop now !
                 </a>
               </div>

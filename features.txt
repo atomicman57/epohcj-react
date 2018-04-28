@@ -1,0 +1,11 @@
+Add two fields to the add product page
+- Gender (male or female)
+- Tag (ankara)
+Size in preview page
+Add to cart modal goes up too much on desktop
+
+Remove the subscription box from homepage, leaving only the modal popup
+After successful order, redirect user to "Order History". Rename "Order History" to "Wardrobe"
+Change "Shopping Cart" on "Cart"
+Youtube: https://www.youtube.com/channel/UCRxfByg150pEmKYLxVZ3vxw
+Pinterest: https://pinterest.com/phantfashion
