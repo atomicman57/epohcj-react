@@ -3,7 +3,7 @@
 </head>
 
 <body>
-<?php include 'include/navigation.inc.html'; ?>
+<?php include 'include/navigation.php'; ?>
 <div class="bn-top">
     <div class="container_img_bread no-img">
         <p><img class="img-responsive" src="images/bn-top.jpg" alt="" /></p>

@@ -2,7 +2,7 @@
 <title>Profile | PhantFashion</title>
 </head>
 <body>
-<?php include 'include/navigation.inc.html'; ?>
+<?php include 'include/navigation.php'; ?>
 
 <div class="bn-top">
     <div class="container_img_bread no-img">

@@ -3,7 +3,7 @@
 </head>
 <body>
     
-  <?php include 'include/navigation.inc.html'; ?>
+  <?php include 'include/navigation.php'; ?>
   <!-- SLIDER SHOW -->
   <div id="field_slideshow" class="slideshow">
     <div class="field-main-slider  block" style="overflow: hidden;">
