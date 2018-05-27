@@ -40,6 +40,7 @@
                     <th>Description</th>
                     <th>Category</th>
                     <th>Service</th>
+                    <th>Statistics</th>
                     <th>&nbsp;</th>
                   </tr>
                   </thead>
@@ -51,6 +52,28 @@
                     <td>Button</td>
                     <td>Shirts (male or female)</td>
                     <td>
+                      Tailors: 27 - <a href="#">View</a><br>
+                      Designs: 584 - <a href="#">View</a><br>
+                      Orders: 12 - <a href="#">View</a>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-info">Edit</button>
+                      <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img src="https://dummyimage.com/60x40/000/fff" class="img-responsive"></td>
+                    <td>Another Tiny button</td>
+                    <td>Another very tiny button that is useless</td>
+                    <td>Collar</td>
+                    <td>Suit (male or female)</td>
+                    <td>
+                      Tailors: 3 - <a href="#">View</a><br>
+                      Designs: 24 - <a href="#">View</a><br>
+                      Orders: 0 - <a href="#">View</a>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-info">Edit</button>
                       <button type="button" class="btn btn-danger">Delete</button>
                     </td>
                   </tr>
